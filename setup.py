@@ -2,7 +2,9 @@ from distutils.core import setup
 
 setup(
     name = 'UdicToolKits',
-    packages=['TextPreprocessing'],
+    packages=['UdicToolKits'],
+    package_dir={'UdicToolKits'},
+    package_data={'UdicToolKits':['TextPreprocessing/*']},
     version = '1.0',
     description = 'udic dictionary, stopwords, TextPreprocessing module',
     author = ['yaochungfan'],
@@ -12,5 +14,4 @@ setup(
     keywords = ['TextPreprocessing', 'dictionary', 'stopwords'],
     classifiers = [],
     license='GPL3.0',
-    zip_safe=True,
 )
