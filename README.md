@@ -1,3 +1,3 @@
-[metadata]
-description-file = README.md
+``` pip install UdicToolKits
 
+``` STOPWORD_JSON
