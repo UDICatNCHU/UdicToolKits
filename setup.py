@@ -7,7 +7,7 @@ setup(
     #package_dir={'UdicToolKits':'TextPreprocessing'},
     #package_data={'UdicToolKits':['TextPreprocessing/*']},
     packages = setuptools.find_packages(),
-    version = '1.04',
+    version = '1.05',
     description = 'udic dictionary, stopwords, TextPreprocessing module',
     author = ['yaochungfan'],
     author_email = 'yfan@nchu.edu.tw',
