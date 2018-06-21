@@ -3,11 +3,11 @@ from distutils.core import setup
 
 setup(
     name = 'UdicToolKits',
-    #packages=['UdicToolKits'],
-    #package_dir={'UdicToolKits':'TextPreprocessing'},
-    #package_data={'UdicToolKits':['TextPreprocessing/*']},
-    packages = setuptools.find_packages(),
-    version = '1.05',
+    packages=['UdicToolKits'],
+    package_dir={'UdicToolKits':'UdicToolKits'},
+    package_data={'UdicToolKits':['TextPreprocessing/*']},
+    #packages = setuptools.find_packages(),
+    version = '1.06',
     description = 'udic dictionary, stopwords, TextPreprocessing module',
     author = ['yaochungfan'],
     author_email = 'yfan@nchu.edu.tw',
